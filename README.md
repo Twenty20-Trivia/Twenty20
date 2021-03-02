@@ -3,7 +3,7 @@
 ## 📚 User Stories
 
 1. As a user, I want to be submerged in strange facts about the year 2020. I want to play a trivia game so that I can pass the time and be entertained.
-2. As a user, I want to be witnessed! I should be able to input my name and have the game keep keep track of my score during my visit.
+2. As a user, I want to be witnessed! I should be able to input my name and have the game keep track of my score during my visit.
 3. As a user, I want to have my accessibility needs considered. I want to interact with a platform that considers contrast, sound, image descriptions / screen reader: readable content.
 4. As a user, I want an interface that's easy to navigate and to understand so my valuable time is not wasted.
 5. As a user, I would like to be able to control when my answer is submitted and not have it done automatically, this ability will allow me to change my question should I decide to change my mind about my initial response.
