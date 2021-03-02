@@ -34,7 +34,7 @@ This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.c
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
-Do you think our game is awesome?...Remember to 🌟star🌟this repository so others can find it too! ![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia) 👀
+Do you think our game is awesome?...Remember to 🌟star🌟this repository so others can find it too! ![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia) 
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 
