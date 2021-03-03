@@ -1,6 +1,6 @@
 # ❤️ C R E D I T S
 
-> // The Twenty20-Trivia Development team want to thank each and every
+> // The Twenty20-Trivia Development team wants to thank each and every
 >
 > glob of inspiration that has blessed our Game!  >> **Thank you Github Developers!**
 
