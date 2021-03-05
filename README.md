@@ -1,10 +1,10 @@
-# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20) ![GitHub top language](https://img.shields.io/github/languages/top/Twenty20-Trivia/Twenty20?style=plastic)
+# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20) 
 
 ## 📚 User Stories
 
 1. As a user, I want to be submerged in strange facts about the year 2020. I want to play a trivia game so that I can pass the time and be entertained.
 2. As a user, I want to be witnessed! I should be able to input my name and have the game keep track of my score during my visit.
-3. As a user, I want to have my accessibility needs considered. I want to interact with a platform that considers contrast, sound, image descriptions / screen reader: readable content.
+3. As a user, I want to have my accessibility needs considered. I want to interact with a platform that considers contrast, sound, image descriptions / screen reader: readable content etc.
 4. As a user, I want an interface that's easy to navigate and to understand so my valuable time is not wasted.
 5. As a user, I would like to be able to control when my answer is submitted and not have it done automatically, this ability will allow me to change my question should I decide to change my mind about my initial response.
 
@@ -32,7 +32,7 @@
 
 + Submission PR
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/) *Meyers Reset*
-+ .gitognore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
++ .gitignore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
 
 ## R E F L E C T I O N S
 
