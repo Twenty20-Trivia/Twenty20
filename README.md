@@ -1,4 +1,4 @@
-# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20)
+# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20) ![GitHub top language](https://img.shields.io/github/languages/top/Twenty20-Trivia/Twenty20?style=plastic)
 
 ## 📚 User Stories
 
@@ -8,9 +8,9 @@
 4. As a user, I want an interface that's easy to navigate and to understand so my valuable time is not wasted.
 5. As a user, I would like to be able to control when my answer is submitted and not have it done automatically, this ability will allow me to change my question should I decide to change my mind about my initial response.
 
-## Wireframe 
+## Wireframe
 
-![wireframe](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/Wireframes.png?raw=true)
+![wireframe](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/wireframes01.png?raw=true)
 
 ## Domain Modeling
 
@@ -31,6 +31,8 @@
 ## L I N K S  &  R E S O U R C E S
 
 + Submission PR
++ [CSS reset](https://meyerweb.com/eric/tools/css/reset/) *Meyers Reset*
++ .gitognore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
 
 ## R E F L E C T I O N S
 
@@ -42,7 +44,9 @@ This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.c
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
-Do you think our game is awesome?...Remember to 🌟 star 🌟this repository so others can find it too! ![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia)
+Do you think our game is awesome?...Remember to 🌟 star 🌟this repository so others can find it too!
+
+![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia)
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 
