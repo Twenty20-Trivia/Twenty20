@@ -1,7 +1,8 @@
 // TODO: Global Variables
 let userName = localStorage.getItem('player');
 let questionArray = [];
-let correctAnswer = 0;
+let score = 0;
+let leaderBoard = document.getElementById('leaderBoard');
 
 // TODO: Save username to a variable upon click of sumbit button and switch to game page
 
@@ -47,6 +48,27 @@ new QuestionCard('Not known to the area- Which winged insect caused alarm when s
 new QuestionCard('What was the name of the planet identified by a high school intern at NASA?', ['TOI 1338 b', 'TESS', 'TOI 1337', 'Tatooine'], 'TOI 1338 b');
 
 
+function scoreMessage(){
+    if(score <= 5) {
+        alert("yeah, you didnt do so well");
+    } else if(score <=15) {
+        alert("You did pretty good!");
+    } else (score >16) {
+        alert("You did great!!!");
+    }
+}
+
+// tr 1 render content scoreArray [o]
+// tr 2-10 render content scoreArray[1] - [9]
+function createUser (name, score) {
+    this.name = name,
+    this.score = score,
+    scoreArray.push(this.score)
+}
+
+
+
+
 // function renderQuestion(){
 //     for(let i = 0; i < questionArray.length; i++)
 // }
@@ -60,9 +82,13 @@ new QuestionCard('What was the name of the planet identified by a high school in
 
 // QuestionCard.prototype.scoreCalc = function () {},
 
+
+
+
 console.log(questionArray);
 console.log(userName);
 // TODO: handle answer sumbit function
 
 
 // TODO: append scores to score board
+
