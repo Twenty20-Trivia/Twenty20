@@ -1,20 +1,34 @@
 // TODO: Global Variables
-let userName = localStorage.getItem('player');
+let userName = JSON.parse(localStorage.getItem('player'));
+// let userName = JSON.parse(getUserName);
 let questionArray = [];
 let score = 0;
 let leaderBoard = document.getElementById('leaderBoard');
+let userArray = [];
+
+// constructor function to create User
+
+function Player(userName, score) {
+  this.name = userName,
+  this.score = score,
+  userArray.push(this);
+}
+
+new Player(userName, 50);
+
+console.log(`This is our name: ${Player}`);
 
 // TODO: Save username to a variable upon click of sumbit button and switch to game page
 
 let gameStartForm = document.querySelector('form');
 
 function gameStart(event) {
-    event.preventDefault();
-    location.href = 'game.html';
-    // Send to local storage:
-    let userName = event.target.userName.value;
-    let stringifiedName = JSON.stringify(userName);
-    localStorage.setItem('player', stringifiedName);
+  event.preventDefault();
+  location.href = 'game.html';
+  // Send to local storage:
+  let userName = event.target.userName.value;
+  let stringifiedName = JSON.stringify(userName);
+  localStorage.setItem('player', stringifiedName);
 }
 
 gameStartForm.addEventListener('submit', gameStart);
@@ -24,11 +38,11 @@ gameStartForm.addEventListener('submit', gameStart);
 
 
 function QuestionCard(question, choices, answer, name, fileExtension) {
-    this.question = question;
-    this.choices = choices;
-    this.answer = answer;
-    this.src = `img/${name}.${fileExtension}`;
-    questionArray.push(this);
+  this.question = question;
+  this.choices = choices;
+  this.answer = answer;
+  this.src = `img/${name}.${fileExtension}`;
+  questionArray.push(this);
 }
 
 // TODO: Figure out correct answer matchup
@@ -48,23 +62,19 @@ new QuestionCard('Not known to the area- Which winged insect caused alarm when s
 new QuestionCard('What was the name of the planet identified by a high school intern at NASA?', ['TOI 1338 b', 'TESS', 'TOI 1337', 'Tatooine'], 'TOI 1338 b');
 
 
-function scoreMessage(){
-    if(score <= 5) {
-        alert("yeah, you didnt do so well");
-    } else if(score <=15) {
-        alert("You did pretty good!");
-    } else (score >16) {
-        alert("You did great!!!");
-    }
+
+function scoreMessage() {
+  if (score <= 5) {
+    alert('yeah, you didnt do so well');
+  } else if (score <= 15) {
+    alert('You did pretty good!');
+  } else {
+    alert('You did great!!!');
+  }
 }
 
-// tr 1 render content scoreArray [o]
-// tr 2-10 render content scoreArray[1] - [9]
-function createUser (name, score) {
-    this.name = name,
-    this.score = score,
-    scoreArray.push(this.score)
-}
+scoreMessage();
+
 
 
 
