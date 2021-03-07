@@ -1,4 +1,4 @@
-# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20) 
+# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20)
 
 ## 📚 User Stories
 
@@ -28,11 +28,31 @@
 
 ## C O L L A B O R A T I O N
 
++ TA Bryant helped us a whole bunch with our question logic and figuring out how to get local storage to operate between our various HTML pages.
+
 ## L I N K S  &  R E S O U R C E S
 
 + Submission PR
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/) *Meyers Reset*
 + .gitignore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
+
+* [Scrolling Text](https://colibriwp.com/blog/scrolling-text/) - *Colibri blog*
+* [Limelight](https://fonts.google.com/specimen/Limelight?preview.text=Twenty20%20Trivia%E2%84%A2%EF%B8%8F&preview.text_type=custom#standard-styles) - *Google Fonts*
+
+### [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) - *Developer Mozilla*
+
+````javascript
+function compare(a, b) {
+  if (a is less than b by some ordering criterion) {
+    return -1;
+  }
+  if (a is greater than b by the ordering criterion) {
+    return 1;
+  }
+  // a must be equal to b
+  return 0;
+}
+````
 
 ## R E F L E C T I O N S
 
@@ -44,7 +64,7 @@ This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.c
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
-Do you think our game is awesome?...Remember to 🌟 star 🌟this repository so others can find it too!
+Do you think our game is awesome?...Remember to 🌟 star 🌟 this repository so others can find it too!
 
 ![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia)
 
