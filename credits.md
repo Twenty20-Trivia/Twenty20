@@ -11,3 +11,7 @@
 + [Shields.io](https://shields.io/) For the sweet badges
 
 * [Read-Me-Stats](https://github.com/anuraghazra/github-readme-stats#github-extra-pins) Thank You🙏🏾 [Anurag Hazra](https://github.com/anuraghazra)!
+
++ .gitignore Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode
+
++ [CSS RESET](https://meyerweb.com/eric/tools/css/reset/) - *Meyers Reset*

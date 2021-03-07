@@ -1,16 +1,16 @@
-# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20)
+# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20)
 
 ## 📚 User Stories
 
 1. As a user, I want to be submerged in strange facts about the year 2020. I want to play a trivia game so that I can pass the time and be entertained.
 2. As a user, I want to be witnessed! I should be able to input my name and have the game keep track of my score during my visit.
-3. As a user, I want to have my accessibility needs considered. I want to interact with a platform that considers contrast, sound, image descriptions / screen reader: readable content.
+3. As a user, I want to have my accessibility needs considered. I want to interact with a platform that considers contrast, sound, image descriptions / screen reader: readable content etc.
 4. As a user, I want an interface that's easy to navigate and to understand so my valuable time is not wasted.
 5. As a user, I would like to be able to control when my answer is submitted and not have it done automatically, this ability will allow me to change my question should I decide to change my mind about my initial response.
 
-## Wireframe 
+## Wireframe
 
-![wireframe](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/Wireframes.png?raw=true)
+![wireframe](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/wireframes01.png?raw=true)
 
 ## Domain Modeling
 
@@ -28,9 +28,31 @@
 
 ## C O L L A B O R A T I O N
 
++ TA Bryant helped us a whole bunch with our question logic and figuring out how to get local storage to operate between our various HTML pages.
+
 ## L I N K S  &  R E S O U R C E S
 
 + Submission PR
++ [CSS reset](https://meyerweb.com/eric/tools/css/reset/) *Meyers Reset*
++ .gitignore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
+
+* [Scrolling Text](https://colibriwp.com/blog/scrolling-text/) - *Colibri blog*
+* [Limelight](https://fonts.google.com/specimen/Limelight?preview.text=Twenty20%20Trivia%E2%84%A2%EF%B8%8F&preview.text_type=custom#standard-styles) - *Google Fonts*
+
+### [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) - *Developer Mozilla*
+
+````javascript
+function compare(a, b) {
+  if (a is less than b by some ordering criterion) {
+    return -1;
+  }
+  if (a is greater than b by the ordering criterion) {
+    return 1;
+  }
+  // a must be equal to b
+  return 0;
+}
+````
 
 ## R E F L E C T I O N S
 
@@ -42,7 +64,9 @@ This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.c
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
-Do you think our game is awesome?...Remember to 🌟 star 🌟this repository so others can find it too! ![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia)
+Do you think our game is awesome?...Remember to 🌟 star 🌟 this repository so others can find it too!
+
+![Profile views](https://gpvc.arturio.dev/Twenty20-Tivia)
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 

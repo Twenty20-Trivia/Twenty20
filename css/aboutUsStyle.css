@@ -13,11 +13,20 @@ h2 {
   background: rgb(155, 120, 120);
   text-align: center;
 }
-
-label {
-  margin-left: 100px;
+/* B O D Y  */
+#marie{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* F O O T E R */
+#kassie{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+#allee{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#aloysious{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* F O O T E R  */
 footer {
   text-align: center;
   background: gray;
