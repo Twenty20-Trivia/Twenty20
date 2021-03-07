@@ -10,30 +10,38 @@
     <h1>Twenty20 Trivia</h1>
     <h2>Let's Play!</h2>
 
+    <div id="gameCard">
+      <p id="question"></p>
+    </div>
+    
     <div>
-      <p>Question space placeholder</p>
-      <form>
+      <form id="gameForm">
        <fieldset>
           <legend>Choose Your Answer</legend>
-          <label for="optionOne">
-            <input type="radio" id="optionOne" name="answer" value="optionOne">
+
+          <input type="radio" id="optionOne" name="answer" value="optionOne">
+            <label for="optionOne">
             1. This is answer option one
           </label>
+          
 
+          <input type="radio" id="optionTwo" name="answer" value="optionTwo">
           <label for="optionTwo">
-            <input type="radio" id="optionTwo" name="answer" value="optionTwo">
             2. This is answer option two
           </label>
+          
 
+          <input type="radio" id="optionThree" name="answer" value="optionThree">
           <label for="optionThree">
-            <input type="radio" id="optionThree" name="answer" value="optionThree">
             3. This is answer option three
           </label>
+          
 
+          <input type="radio" id="optionFour" name="answer" value="optionFour">
           <label for="optionFour">
-            <input type="radio" id="optionFour" name="answer" value="optionFour">
             4. This is answer option four
           </label>
+          
 
           <button type="submit">Submit</button>
         </fieldset>
@@ -50,6 +58,7 @@
   </body>
 
   <footer>&copy;Twenty20 Trivia&trade;
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/game.js"></script>
   </footer>
   </html>
