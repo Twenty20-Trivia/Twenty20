@@ -6,7 +6,6 @@ let questionArray = [];
 // this is the counter for user's correct answers
 let score = 0;
 // score to save for leader board
-let finalScore = 0;
 // this is the array that stores each Player object created
 let userArray = JSON.parse(localStorage.getItem('playerArray'));
 let index = 0;
@@ -104,6 +103,8 @@ questionArray[index].renderQuestion();
 // this works y'all!!! (gives custom message to user depending on their score)
 function scoreMessage() {
   if (score <= 5) {
+    let results = document.getElementById('resultMessage');
+    let message = document.createElement
     alert('yeah, you didnt do so well');
   } else if (score <= 15) {
     alert('You did pretty good!');
