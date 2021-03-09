@@ -1,17 +1,16 @@
-// GLOBAL VARIABLES FOR ACCESSING DOCUMENTS
-// defines the Leader Board element
-let leaderBoard = document.getElementById('leaderBoard');
-// defines the form we will use to render our Question Cards
+// Form where user inputs their name and initiates game
 let gameStartForm = document.querySelector('form');
 
+// accesses local storage "player array" to review in Player constructor function
 let userArray = JSON.parse(localStorage.getItem('playerArray')) || [];
 
-//OTHER GLOBAL VARIABLES
 // accesses and parses user's name from local storage
 let userName = JSON.parse(localStorage.getItem('player'));
 
 
 // constructor function to create User objects
+// searches for previous user
+// creates a new one if it doesn't currently exist
 function Player(userName, score) {
   this.name = userName;
   this.score = score;
@@ -20,20 +19,19 @@ function Player(userName, score) {
   }
 }
 
-// TODO: Save username to a variable upon click of sumbit button and switch to game page
-
-
-// this function starts the game after user submits their userName
+// this function starts the game after user submits their name
 function gameStart(event) {
   event.preventDefault();
   location.href = 'game.html';
-  // Send to local storage:
+  // Creates a new Player and sends it to localStorage
+  // Stringifies the userArray and sends it to localStorage
   let userName = new Player(event.target.userName.value, 0);
   let stringifiedName = JSON.stringify(userName);
   localStorage.setItem('player', stringifiedName);
   localStorage.setItem('playerArray', JSON.stringify(userArray));
 }
 
+// event listener that starts the game
 gameStartForm.addEventListener('submit', gameStart);
 
 
@@ -53,10 +51,4 @@ gameStartForm.addEventListener('submit', gameStart);
 // }
 
 // QuestionCard.prototype.scoreCalc = function () {},
-
-
-// TODO: handle answer sumbit function
-
-
-// TODO: append scores to score board
 
