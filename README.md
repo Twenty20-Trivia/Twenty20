@@ -14,7 +14,8 @@
 
 ## Domain Modeling
 
-![](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/TWENTY20%20Domain%20Modeling.png?raw=true)
+
+
 
 ## 👥 Team Twenty20 ![GitHub contributors](https://img.shields.io/github/contributors/Twenty20-Trivia/Twenty20?style=plastic)
 
@@ -40,6 +41,8 @@
 * [Limelight](https://fonts.google.com/specimen/Limelight?preview.text=Twenty20%20Trivia%E2%84%A2%EF%B8%8F&preview.text_type=custom#standard-styles) - *Google Fonts*
 
 ### [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) - *Developer Mozilla*
+
+*write up a little blurb about how we needed to apply this method to our code*
 
 ````javascript
 function compare(a, b) {
