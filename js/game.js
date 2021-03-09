@@ -25,10 +25,10 @@ QuestionCard.prototype.renderQuestion = function() {
   question.textContent = this.question;
   gameCard.appendChild(question);
 
-  // // renders the image
-  // let image = document.getElementById('questionImage');
-  // image.src = (this.src);
-  // gameCard.appendChild(image);
+  // renders the image
+  let image = document.getElementById('questionImage');
+  image.src = (this.src);
+  gameCard.appendChild(image);
 
   // renders the choices
   let labels = gameForm.children[0].children;
@@ -98,20 +98,20 @@ function scoreMessage() {
   let message = document.createElement('p');
   if (score <= 5) {
     message.textContent = `Total Score: ${score}/20...Were you even awake in 2020?`;
-    results.appendChild(message);
   } else if (score <= 10) {
     message.textContent = `Total Score: ${score}/20... Hmm, that's pretty okay.`;
-    results.appendChild(message);
   } else if (score <= 15) {
     message.textContent = `Total Score: ${score}/20...You done good!`;
-    results.appendChild(message);
   } else if (score < 20) {
     message.textContent = `Total Score: ${score}/20Way to go, you did great!`;
-    results.appendChild(message);
   } else {
     message.textContent = `Total Score: ${score}/20...Perfect score, certifiable historian`;
-    results.appendChild(message);
   }
+  results.appendChild(message);
+  let link = document.createElement('a');
+  link.href= 'leaderBoard.html';
+  link.textContent = 'Checkout the Leader Board';
+  results.appendChild(link);
 }
 
 // TODO: Figure out correct answer matchup
