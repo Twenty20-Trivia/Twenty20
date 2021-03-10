@@ -1,9 +1,19 @@
 
 /*......................................B A C K G R O U N D . Toilet-Paper-! */
 body {
-  /* background: url(/img/toilet-paper.png) no-repeat center center fixed;
-  background-size: 65%; */
+  position: relative;
   background-color: rgb(41, 41, 41);
+  height: max-content;
+  min-height: 100vh;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5em;
 }
 
 /*.......................................T w e n t y 2 0  . T r i v i a (h1) */
@@ -31,24 +41,27 @@ h2 {
 
 }
 /*..........................................L E A D E R B O A R D . T A B L E  */
-#leaderBoard {
-  position: fixed;
-  top: 40%;
-  left: 48%;
-  width: 400px;
-}
 
+/* container that HOLDS the leaderboard table*/
 #leaderBoardBox {
-  background: url(/img/toilet-paper.png) no-repeat center center fixed;
-  background-size: 960px;
-  background-color: rgb(41, 41, 41);
-  height: 500px;
-  width: 900px;
+  background-image: url(/img/toilet-paper.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* position: relative; */
+  height: 400px;
+  width: 960px;
   display: block;
   text-align: center;
   margin: 20px auto;
-  padding: 50px;
-  border: 1px solid black;
+  padding: 25px;
+}
+
+/* the actual leaderboard ID */
+#leaderBoard {
+  position: relative;
+  top: 30%;
+  left: 17%;
+  width: 470px;
 }
 
 table, td {
@@ -66,21 +79,26 @@ table, td {
   width:500px;
   margin: 0 auto;
 }
+
 td:hover {
  color: rgb(155, 0, 0);
 }
+
 th, tfoot {
   text-align: center;
   border: solid  rgb(0, 62, 78) 12px;
   border-width: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
 /*...............................................S C R O L L I N G    T E X T  */
 .twentyTwentyScroll {
   height: 50px;  
   overflow: hidden;
   position: relative;
+  margin-bottom: 5px;
  }
+
  .twentyTwentyScroll h3 {
   font-size: 22px;
   font-family: 'IBM Plex Mono', monospace;
@@ -102,44 +120,73 @@ th, tfoot {
   -webkit-animation: twentyTwentyScroll 20s linear infinite;
   animation: twentyTwentyScroll 20s linear infinite;
  }
+
  /* Move it (define the animation) */
  @-moz-keyframes twentyTwentyScroll {
   0%   { -moz-transform: translateX(100%); }
   100% { -moz-transform: translateX(-100%); }
  }
+
  @-webkit-keyframes twentyTwentyScroll {
   0%   { -webkit-transform: translateX(100%); }
   100% { -webkit-transform: translateX(-100%); }
  }
+
  @keyframes twentyTwentyScroll {
   0%   { 
   -moz-transform: translateX(100%); /* Firefox bug fix */
   -webkit-transform: translateX(100%); /* Firefox bug fix */
   transform: translateX(100%);     
   }
+
   100% { 
   -moz-transform: translateX(-100%); /* Firefox bug fix */
   -webkit-transform: translateX(-100%); /* Firefox bug fix */
   transform: translateX(-100%); 
   }
  }
+ 
  /*.............................................N A V I G A T I O N . L I N K S */
+
+#nav {
+  background: gray;
+  font-family: Limelight, cursive;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  /* position: absolute;
+  bottom: 10; */
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 li {
   display: inline-block;
-  margin-top: 90px;
   font-weight: bold;
   font-size: 22px;
- margin-left: 260px;
-}
+ padding-left: 150px;
+ padding-right: 150px;
+ }
+
+ a {
+  color: rgb(0, 62, 78)
+ }
+ a:hover {
+  color: white;
+ }
+
  /*......................................................F O O T E R */
  footer {
   position: absolute;
   bottom: 0;
   text-align: center;
-  height: 30px;
-  margin-bottom: 0;
-  padding-top: 10px;
-  margin: auto;
+  vertical-align: top;
+  height: 2.5rem;
+  /* margin-bottom: 5px;
+  margin-top: 10px;
+  padding-top: 5px; */
+  /* margin: auto; */
   color: rgb(0, 0, 0);
   font-size: 20px;
   width: 100%;
