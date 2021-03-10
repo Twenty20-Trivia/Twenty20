@@ -1,12 +1,10 @@
+'use strict;';
+
 // Form where user inputs their name and initiates game
 let gameStartForm = document.querySelector('form');
 
 // accesses local storage "player array" to review in Player constructor function
 let userArray = JSON.parse(localStorage.getItem('playerArray')) || [];
-
-// accesses and parses user's name from local storage
-// let userName = JSON.parse(localStorage.getItem('player'));
-
 
 // constructor function to create User objects
 // searches for previous user
