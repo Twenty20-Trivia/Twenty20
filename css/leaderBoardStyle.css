@@ -1,21 +1,43 @@
+
+/*......................................B A C K G R O U N D . Toilet-Paper-! */
+body {
+  background: url(/img/toilet-paper.png) no-repeat center center fixed;
+  background-size: 65%;
+  background-color: rgb(41, 41, 41);
+}
+
+/*.......................................T w e n t y 2 0  . T r i v i a (h1) */
 h1 {
   font-family: 'Limelight', cursive;
-  font-size: 40px;
-  width:500px;
+  font-size: 50px;
+  height: 60px;
+  width:600px;
   margin: 0 auto;
+  padding-top: 20px;
   background: gray;
   text-align: center;
   margin-bottom: 15px;
-  margin-top: 10px;
+  border-radius: 60px;
+  border: dashed 3px rgb(0, 0, 0);
 }
+/*...............................................L e a d e r . B o a r d (h2) */
 h2 {
-  width:500px;
+  font-family: 'Limelight', cursive;
+  width:260px;
+  font-size: 30px;
   margin: 0 auto;
-  background: rgb(155, 120, 120);
+  height: 30px;
+  padding-top: 10px;
+  background: rgb(155, 120, 120);  
   text-align: center;
-  margin-bottom: 30px;
+  border: dashed 3px rgb(218, 199, 199);
+  border-radius: 60px;
 }
-/* L E A D E R B O A R D    T A B L E  */
+/*..........................................L E A D E R B O A R D . T A B L E  */
+#leaderBoard {
+  margin-top: 78px;
+  margin-left: 396px;
+}
 table, td {
   color: rgb(15, 6, 6);
   background-color: rgb(180, 173, 173);
@@ -40,7 +62,7 @@ th, tfoot {
   border-width: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-/* S C R O L L I N G    T E X T  */
+/*...............................................S C R O L L I N G    T E X T  */
 .twentyTwentyScroll {
   height: 50px;  
   overflow: hidden;
@@ -49,7 +71,8 @@ th, tfoot {
  .twentyTwentyScroll h3 {
   font-size: 22px;
   font-family: 'IBM Plex Mono', monospace;
-  color: rgb(0, 62, 78);
+  font-weight: bold;
+  color: rgb(155, 172, 6);
   margin-top: 140px;
   /* position: absolute; */
   width: 100%;
@@ -62,9 +85,9 @@ th, tfoot {
   -webkit-transform:translateX(100%);  
   transform:translateX(100%);
   /* Apply animation to this element */  
-  -moz-animation: twentyTwentyScroll 15s linear infinite;
-  -webkit-animation: twentyTwentyScroll 15s linear infinite;
-  animation: twentyTwentyScroll 15s linear infinite;
+  -moz-animation: twentyTwentyScroll 20s linear infinite;
+  -webkit-animation: twentyTwentyScroll 20s linear infinite;
+  animation: twentyTwentyScroll 20s linear infinite;
  }
  /* Move it (define the animation) */
  @-moz-keyframes twentyTwentyScroll {
@@ -87,15 +110,24 @@ th, tfoot {
   transform: translateX(-100%); 
   }
  }
- /* F O O T E R */
-footer {
+ /*.............................................N A V I G A T I O N . L I N K S */
+li {
+  display: inline-block;
+  margin-top: 90px;
+  font-weight: bold;
+  font-size: 22px;
+ margin-left: 260px;
+}
+ /*......................................................F O O T E R */
+ footer {
+  position: absolute;
+  bottom: 0;
   text-align: center;
-  background: gray;
   height: 30px;
-  margin-bottom: 0%;
+  margin-bottom: 0;
   padding-top: 10px;
   margin: auto;
   color: rgb(0, 0, 0);
-  font-size: 16px;
-  width:500px;
+  font-size: 20px;
+  width: 100%;
 }

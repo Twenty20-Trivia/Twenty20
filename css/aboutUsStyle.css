@@ -1,11 +1,13 @@
+/*.......................................T w e n t y 2 0  . T r i v i a (h1) */
 h1 {
   font-family: 'Limelight', cursive;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   width:500px;
   margin: 0 auto;
   background: gray;
 }
+/*...............................................A B O U T . U S  (h2) */
 h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width:500px;
@@ -13,7 +15,10 @@ h2 {
   background: rgb(155, 120, 120);
   text-align: center;
 }
-/* B O D Y  */
+
+/*.....................................................B O D Y  */
+
+
 #marie{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -26,7 +31,16 @@ h2 {
 #aloysious{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* F O O T E R  */
+
+
+article {
+  display: inline-block;
+}
+
+
+/* .................................................PAGE SPLIT */
+
+/*.................................................F O O T E R  */
 footer {
   text-align: center;
   background: gray;
