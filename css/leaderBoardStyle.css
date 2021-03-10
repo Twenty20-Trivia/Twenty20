@@ -11,27 +11,24 @@ h1 {
   font-family: 'Limelight', cursive;
   font-size: 50px;
   height: 60px;
-  width:600px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 20px;
   background: gray;
   text-align: center;
   margin-bottom: 15px;
-  border-radius: 60px;
-  border: dashed 3px rgb(0, 0, 0);
 }
 /*...............................................L e a d e r . B o a r d (h2) */
 h2 {
   font-family: 'Limelight', cursive;
-  width:260px;
+  width: 100%;
   font-size: 30px;
   margin: 0 auto;
   height: 30px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: rgb(155, 120, 120);  
   text-align: center;
-  border: dashed 3px rgb(218, 199, 199);
-  border-radius: 60px;
+
 }
 /*..........................................L E A D E R B O A R D . T A B L E  */
 #leaderBoard {
@@ -130,4 +127,5 @@ li {
   color: rgb(0, 0, 0);
   font-size: 20px;
   width: 100%;
+  font-weight: bold;
 }
