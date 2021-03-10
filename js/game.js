@@ -17,7 +17,7 @@ let index = 0;
 let userName = JSON.parse(localStorage.getItem('player'));
 console.log(userName);
 
-// TO DO: Render QuestionCards to game.html page
+//  Renders QuestionCards to game.html page
 
 QuestionCard.prototype.renderQuestion = function() {
   // renders the question
@@ -63,7 +63,8 @@ function handleAnswer(event) {
     questionArray[index].renderQuestion();
   } else {
     // remove event listener
-    gameForm.removeEventListener('submit', handleAnswer);
+    gameForm.style.display = 'none';
+    gameCard.style.display = 'none';
     // show the total score and customized message
     scoreMessage();
     // reassign user's Player object score
@@ -113,11 +114,6 @@ function scoreMessage() {
   link.textContent = 'Checkout the Leader Board';
   results.appendChild(link);
 }
-
-// TODO: Figure out correct answer matchup
-// QuestionCard.prototype.correctAnswer = function(choice) {
-//     return choice === this.answer;
-// },
 
 // question 1
 new QuestionCard('What was the most popular show streamed on Netflix?', ['The Crown', 'Tiger King', 'Lucifer', 'Ozark'], 'Ozark', 'q01');
