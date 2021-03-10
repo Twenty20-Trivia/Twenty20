@@ -103,7 +103,7 @@ function scoreMessage() {
   } else if (score <= 15) {
     message.textContent = `Total Score: ${score}/20...You done good!`;
   } else if (score < 20) {
-    message.textContent = `Total Score: ${score}/20Way to go, you did great!`;
+    message.textContent = `Total Score: ${score}/20 Way to go, you did great!`;
   } else {
     message.textContent = `Total Score: ${score}/20...Perfect score, certifiable historian`;
   }
