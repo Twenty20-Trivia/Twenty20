@@ -7,6 +7,23 @@ body {
   min-height: 100vh;
 }
 
+#background-overlay {
+  position: absolute;
+  height:100%;
+  width: 150%;
+  background: url(/img/wallpapers.png) repeat center center fixed;
+  background-size: 35%;
+  opacity: .07;
+  z-index: -1
+}
+#background-underlay {
+  position: absolute;
+  height:100%;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  z-index: -2
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
