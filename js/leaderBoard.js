@@ -1,3 +1,6 @@
+'use strict;';
+
+// accesses and parses playerArray from local storage
 let playerArray = JSON.parse(localStorage.getItem('playerArray'));
 
 let leaderBoard = document.getElementById('leaderBoard').children[1];

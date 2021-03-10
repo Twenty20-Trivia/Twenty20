@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Twenty20 Trivia</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-  </head>
-  <body>
-   <div id="background-overlay"></div> 
-    <div id="background-underlay"></div>
-<video autoplay muted loop id="myVideo">
-  <source src="/video/masks-up.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
 
-    <h1>Twenty20 Trivia</h1>
-    <p>How much do you really know about the year 2020?</p>
-    <form>
-      <fieldset>
-        <legend></legend>
-        <label>Please enter your alias :
-          <input id="userName" type="text" name="userName" required="required" value="randomPlayer">
-        </label>
-        <button type="submit">Submit</button>
-      </fieldset>
-    </form>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</li></a>
-        <li><a href="aboutUs.html">About Us</li></a>
-        <li><a href="leaderBoard.html">Leader Board</li></a>
-      </ul>
-    </nav>
-    <embed src="/audio/bensound-happyrock.mp3" loop="true" autostart="true" width="2" height="0">
-  </body>
-  <footer>&copy;Twenty20 Trivia&trade;
-    <script src="js/app.js"></script>
-  </footer>
+<head>
+  <title>Twenty20 Trivia</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="background-overlay"></div>
+  <div id="background-underlay"></div>
+  <video autoplay muted id="myVideo">
+    <source src="/video/masks-up.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <h1>Twenty20 Trivia</h1>
+  <p>How much do you really know about the year 2020?</p>
+  <form>
+    <fieldset>
+      <legend></legend>
+      <label>Please enter your alias :</label>
+      <input id="userName" type="text" name="userName" required="required" value="randomPlayer">
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+ 
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</li></a>
+      <li><a href="aboutUs.html">About Us</li></a>
+      <li><a href="leaderBoard.html">Leader Board</li></a>
+    </ul>
+  </nav>
+ 
+  <embed src="/audio/bensound-happyrock.mp3" loop="true" autostart="true" width="2" height="0">
+</body>
+
+<footer>&copy;Twenty20 Trivia&trade;
+  <script src="js/app.js"></script>
+</footer>
+
 </html>

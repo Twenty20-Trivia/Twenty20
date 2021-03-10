@@ -1,3 +1,5 @@
+'use strict;';
+
 // this array stores our QuestionCard objects
 let questionArray = [];
 // this is the counter for user's correct answers
