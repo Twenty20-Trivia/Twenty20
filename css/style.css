@@ -46,17 +46,18 @@ h1 {
   margin-bottom: 30px;
 } */
 p {
-  position: absolute;
+  /* position: absolute; */
   max-width: max-content;
-  margin-left: 38%;
-  margin-top: 3%;
+  margin: auto;
+  margin-top: 60px;
+  padding-top: 20px;
   font-size: 28px;
 }
 /* ................................................F O R M . S T U F F */
 form {
   max-width: max-content;
   /* border: 1px solid red; */
-  margin:  5% auto;
+  margin:  3% auto;
   text-align: left;
   font-size: 25px;
 }
@@ -90,48 +91,47 @@ button {
   margin: 40px auto 10px;
 }
  /*.............................................N A V I G A T I O N . L I N K S */
- nav {
-  margin-top: 31%;
-}
-#nav {
- background: rgb(155, 120, 120);
- font-family: Limelight, cursive;
- display: inline-block;
- text-align: center;
- width: 100%;
- /* position: absolute;
- bottom: 10; */
- margin-bottom: 5%;
- padding-top: 1%;
- padding-bottom: 1%;
+ #nav {
+  background: gray;
+  font-family: Limelight, cursive;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 li {
- display: inline-block;
- font-weight: bold;
- font-size: 22px;
-padding-left: 150px;
-padding-right: 150px;
-}
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+ padding-left: 150px;
+ padding-right: 150px;
+ }
 
-a {
- color: rgb(0, 62, 78)
-}
-a:hover {
- color: white;
-}
-/*.....................................................F O O T E R */
-footer {
- position: absolute;
- bottom: 0;
- text-align: center;
- background: gray;
- height: 30px;
- margin-bottom: 0;
- padding-top: 10px;
- margin: auto;
- color: rgb(0, 0, 0);
- font-size: 16px;
- width: 100%;
- font-weight: bold;
+ a {
+  color: rgb(0, 62, 78)
+ }
+ a:hover {
+  color: white;
+ }
+
+ /*......................................................F O O T E R */
+ footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  vertical-align: top;
+  height: 2.5rem;
+  /* margin-bottom: 5px;
+  margin-top: 10px;
+  padding-top: 5px; */
+  /* margin: auto; */
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
 }
