@@ -1,8 +1,8 @@
 
 /*......................................B A C K G R O U N D . Toilet-Paper-! */
 body {
-  background: url(/img/toilet-paper.png) no-repeat center center fixed;
-  background-size: 65%;
+  /* background: url(/img/toilet-paper.png) no-repeat center center fixed;
+  background-size: 65%; */
   background-color: rgb(41, 41, 41);
 }
 
@@ -32,9 +32,25 @@ h2 {
 }
 /*..........................................L E A D E R B O A R D . T A B L E  */
 #leaderBoard {
-  margin-top: 78px;
-  margin-left: 396px;
+  position: fixed;
+  top: 40%;
+  left: 48%;
+  width: 400px;
 }
+
+#leaderBoardBox {
+  background: url(/img/toilet-paper.png) no-repeat center center fixed;
+  background-size: 960px;
+  background-color: rgb(41, 41, 41);
+  height: 500px;
+  width: 900px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+  border: 1px solid black;
+}
+
 table, td {
   color: rgb(15, 6, 6);
   background-color: rgb(180, 173, 173);
