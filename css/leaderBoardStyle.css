@@ -11,7 +11,7 @@ body {
   position: absolute;
   height:100%;
   width: 150%;
-  background: url(/img/wallpapers.png) repeat center center fixed;
+  background: url(img/wallpapers.png) repeat center center fixed;
   background-size: 35%;
   opacity: .07;
   z-index: -1
@@ -61,7 +61,7 @@ h2 {
 
 /* container that HOLDS the leaderboard table*/
 #leaderBoardBox {
-  background-image: url(/img/toilet-paper.png);
+  background-image: url(img/toilet-paper.png);
   background-repeat: no-repeat;
   background-size: 100%;
   /* position: relative; */
