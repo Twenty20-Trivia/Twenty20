@@ -8,13 +8,13 @@
 4. As a user, I want an interface that's easy to navigate and to understand so my valuable time is not wasted.
 5. As a user, I would like to be able to control when my answer is submitted and not have it done automatically, this ability will allow me to change my question should I decide to change my mind about my initial response.
 
-## Wireframe
+## 🎨Wireframe
 
 ![wireframe](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/wireframes01.png?raw=true)
 
-## Domain Modeling
+## 🚧 Domain Modeling
 
-![DomainModel](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/TWENTY20%20Domain%20Modeling.png?raw=true)
+![](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/domain-modeling.png?raw=true)
 
 ## 👥 Team Twenty20 ![GitHub contributors](https://img.shields.io/github/contributors/Twenty20-Trivia/Twenty20?style=plastic)
 
@@ -26,13 +26,13 @@
 
 💻 [Marie](https://github.com/Mmarcos01)
 
-## C O L L A B O R A T I O N
+## 🙌C O L L A B O R A T I O N
 
 + TA Bryant helped us a whole bunch with our question logic and figuring out how to get local storage to operate between our various HTML pages.
 
-## L I N K S  &  R E S O U R C E S
+## 🌐 L I N K S  &  R E S O U R C E S
 
-+ 👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾 **Submission PR** [DONT FORGET]
++ [Porject Submission PR](https://github.com/Twenty20-Trivia/Twenty20/pull/48)
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/) *Meyers Reset*
 + .gitignore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
 
@@ -41,9 +41,11 @@
 * [Gochi Hand](https://fonts.google.com/specimen/Gochi+Hand?preview.text_type=custom) - *Google Fonts*
 * Video by **cottonbro** from **Pexels**- [https://www.pexels.com/video/woman-safe-group-asian-3960165/](https://www.pexels.com/video/woman-safe-group-asian-3960165)
 
-### [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) - *Developer Mozilla*
+
 
 We created a function to compare the player scores against one another and used it to sort players in the array from highest score to lowest score.
+
+[Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) - *Developer Mozilla*
 
 ````javascript
 function compare(a, b) {
@@ -58,15 +60,21 @@ function compare(a, b) {
 }
 ````
 
-### R E F L E C T I O N S
+## 🛠️ T O O L S
+
++ Adobe Illustrator
++ Visual Code
++ Paint
++ aCe & Wave *accessibility auditing*
++ Github's' Project Board integration
++ Slack / Zoom / Remo
+
+### 🤔 R E F L E C T I O N S
+
 
 + Using a fixed px value for HTML elements while formatting in CSS prevents consistent positioning between browsers and devices. Percentages can be used instead of pixels to sort thing out.
-+
-+
-+
-
-
-### Accessibility Data for Website:
++ Adding sound files and multiple images may impact how long it takes for webpages to load as well as pulls between github and the computer terminal.
++ Having a solid plan that everyone could agree to and feel good about contributing to allowed for us all to have a good deal of fun creating our game.
 
 ---
 
