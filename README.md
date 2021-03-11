@@ -1,4 +1,4 @@
-# Twenty20 Trivia ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20)
+# Twenty20 Trivia™️ ![open-pr](https://img.shields.io/github/issues-pr-raw/Twenty20-Trivia/Twenty20) ![closed-pr](https://img.shields.io/github/issues-pr-closed/Twenty20-Trivia/Twenty20) ![GitHub issues](https://img.shields.io/github/issues/Twenty20-Trivia/Twenty20)
 
 ## 📚 User Stories
 
@@ -14,8 +14,7 @@
 
 ## Domain Modeling
 
-
-
+![DomainModel](https://github.com/Twenty20-Trivia/Twenty20/blob/staging/img/TWENTY20%20Domain%20Modeling.png?raw=true)
 
 ## 👥 Team Twenty20 ![GitHub contributors](https://img.shields.io/github/contributors/Twenty20-Trivia/Twenty20?style=plastic)
 
@@ -33,16 +32,18 @@
 
 ## L I N K S  &  R E S O U R C E S
 
-+ Submission PR
++ 👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾👉🏾 **Submission PR** [DONT FORGET]
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/) *Meyers Reset*
 + .gitignore `Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode`
 
-* [Scrolling Text](https://colibriwp.com/blog/scrolling-text/) - *Colibri blog*
+* [Scrolling Text](https://colibriwp.com/blog/scrolling-text/) - *Colibri blog* `CONGRATS to our CHAMPIONS 🏆!!!`
 * [Limelight](https://fonts.google.com/specimen/Limelight?preview.text=Twenty20%20Trivia%E2%84%A2%EF%B8%8F&preview.text_type=custom#standard-styles) - *Google Fonts*
+* [Gochi Hand](https://fonts.google.com/specimen/Gochi+Hand?preview.text_type=custom) - *Google Fonts*
+* Video by **cottonbro** from **Pexels**- [https://www.pexels.com/video/woman-safe-group-asian-3960165/](https://www.pexels.com/video/woman-safe-group-asian-3960165)
 
 ### [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) - *Developer Mozilla*
 
-*write up a little blurb about how we needed to apply this method to our code*
+We created a function to compare the player scores against one another and used it to sort players in the array from highest score to lowest score.
 
 ````javascript
 function compare(a, b) {
@@ -57,13 +58,19 @@ function compare(a, b) {
 }
 ````
 
-## R E F L E C T I O N S
+### R E F L E C T I O N S
+
++ Using a fixed px value for HTML elements while formatting in CSS prevents consistent positioning between browsers and devices. Percentages can be used instead of pixels to sort thing out.
++
++
++
+
 
 ### Accessibility Data for Website:
 
 ---
 
-This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/AL0YSI0US/" property="cc:attributionName" rel="cc:attributionURL">Twenty20-Trivia is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/AL0YSI0US/" property="cc:attributionName" rel="cc:attributionURL">Twenty20-Trivia™️ is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
@@ -73,4 +80,4 @@ Do you think our game is awesome?...Remember to 🌟 star 🌟 this repository s
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 
-#### ❤️ [Credits](credits.md) ❤️ *everything that looks neat, was inspired by another talented Developer.*
+##### ❤️ [Credits](credits.md) ❤️ *everything that looks neat, was inspired by another talented Developer.*

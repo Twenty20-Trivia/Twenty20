@@ -1,12 +1,10 @@
+'use strict;';
+
 // Form where user inputs their name and initiates game
 let gameStartForm = document.querySelector('form');
 
 // accesses local storage "player array" to review in Player constructor function
 let userArray = JSON.parse(localStorage.getItem('playerArray')) || [];
-
-// accesses and parses user's name from local storage
-let userName = JSON.parse(localStorage.getItem('player'));
-
 
 // constructor function to create User objects
 // searches for previous user
@@ -33,22 +31,3 @@ function gameStart(event) {
 
 // event listener that starts the game
 gameStartForm.addEventListener('submit', gameStart);
-
-
-// TODO: Pull a random question card from a constructor function
-
-
-
-// function renderQuestion(){
-//     for(let i = 0; i < questionArray.length; i++)
-// }
-
-
-
-// Randomly generates a number between /including 1 and the length of the questions array
-// function getRandomIndex() {
-//     return Math.floor(Math.random() * questionArray.length);
-// }
-
-// QuestionCard.prototype.scoreCalc = function () {},
-

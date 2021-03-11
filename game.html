@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Twenty20 Trivia - Game</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/gameStyle.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <h1>Twenty20 Trivia</h1>
-    <h2>Let's Play!</h2>
+<head>
+  <title>Twenty20 Trivia - Game</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/gameStyle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
 
-    <div id="gameCard">
-      <p id="question"></p>
-    </div>
-      <img id="questionImage">
-    
-    
+<body>
+  <div id="background-overlay"></div>
+  <div id="background-underlay"></div>
 
-    <div>
-      <form id="gameForm">
-       <fieldset>
-          <legend></legend>
+  <h1>Twenty20 Trivia</h1>
+  <h2>Let's Play!</h2>
 
-          <input type="radio" id="optionOne" name="answer" value="optionOne">
-            <label for="optionOne">
-          </label>
-          
+  <div id="gameCard">
+    <p id="question"></p>
+  </div>
+  <img id="questionImage">
 
-          <input type="radio" id="optionTwo" name="answer" value="optionTwo">
-          <label for="optionTwo"></label>
-          </label>
-          
+  <div>
+    <form id="gameForm">
+      <fieldset>
+        <legend></legend>
 
-          <input type="radio" id="optionThree" name="answer" value="optionThree">
-          <label for="optionThree">
-          </label>
-          
+        <input type="radio" id="optionOne" name="answer" value="optionOne">
+        <label for="optionOne"></label>
 
-          <input type="radio" id="optionFour" name="answer" value="optionFour">
-          <label for="optionFour"></label>
-          </label>
-          
+        <input type="radio" id="optionTwo" name="answer" value="optionTwo">
+        <label for="optionTwo"></label>
 
-          <button type="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
+        <input type="radio" id="optionThree" name="answer" value="optionThree">
+        <label for="optionThree"></label>
 
-    <div id="results">
+        <input type="radio" id="optionFour" name="answer" value="optionFour">
+        <label for="optionFour"></label>
 
-    </div>
+        <audio id="sound1" src="audio/click1.wav" preload="auto"></audio>
 
-    <nav>
+        <button onclick="document.getElementById('sound1').play();" type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <div id="results">
+
+  </div>
+
+  <nav>
+    <div id="nav">
       <ul>
         <li><a href="index.html">Home</li></a>
         <li><a href="aboutUs.html">About Us</li></a>
         <li><a href="leaderBoard.html">Leader Board</li></a>
       </ul>
-    </nav>
-  </body>
+    </div>
+  </nav>
 
   <footer>&copy;Twenty20 Trivia&trade;
-    <!-- <script src="js/app.js"></script> -->
     <script src="js/game.js"></script>
   </footer>
-  </html>
+  
+  <embed src="/audio/ding.wav" loop="false" autostart="true" width="2" height="0">
+</body>
+
+
+</html>
+
