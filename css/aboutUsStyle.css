@@ -1,54 +1,168 @@
+body {
+  position: relative;
+  background-color: rgb(41, 41, 41);
+  height: max-content;
+  min-height: 100vh;
+}
+
+.background-overlay {
+  position: absolute;
+  height:100%;
+  width: 150%;
+  background: url(/img/wallpapers.png) repeat center center fixed;
+  background-size: 35%;
+  opacity: .07;
+  z-index: -1
+}
+
+.background-underlay {
+  position: absolute;
+  height:100%;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  z-index: -2
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5em;
+}
+
 /*.......................................T w e n t y 2 0  . T r i v i a (h1) */
 h1 {
   font-family: 'Limelight', cursive;
   font-size: 50px;
-  text-align: center;
-  width:500px;
+  height: 60px;
+  width: 100%;
   margin: 0 auto;
+  padding-top: 20px;
   background: gray;
-}
-/*...............................................A B O U T . U S  (h2) */
-h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width:500px;
-  margin: 0 auto;
-  background: rgb(155, 120, 120);
   text-align: center;
+  margin-bottom: 15px;
+}
+
+/*...............................................A B O U T . U S  (h2) */
+
+h2 {
+  font-family: 'Limelight', cursive;
+  width: 100%;
+  font-size: 30px;
+  margin: 0 auto;
+  height: 30px;
+  padding-top: 5px;
+  background: rgb(155, 120, 120);  
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Limelight', cursive;
+  width: 250px;
+  font-size: px;
+  margin: 0 auto;
+  height: 20px;
+  padding-top: 5px;
+  background: rgb(155, 120, 120);  
+  text-align: center;
+  border: 2px solid black;
+
 }
 
 /*.....................................................B O D Y  */
 
-
-#marie{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#kassie{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} 
-#allee{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#aloysious{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.flexbox-container {
+  width: 800px;
+  position: relative;
+  margin: auto;
 }
 
+.bio {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid black;
+  background-color: grey;
+  min-height: max-content;
+}
 
-article {
+#top-row {
+  display: flex;
+  width: 950px;
+}
+
+#bottom-row {
+  display: flex;
+  width: 950px;
+}
+
+.imgbox {
+  height: 55%;
+  padding: 3px;
+  margin: auto;
+  vertical-align: center;
+}
+
+img {
+width: 150px;
+display: block;
+margin: auto;
+min-height: 100px;
+max-height: 100%;
+align-items:center
+}
+
+p {
+text-align: justify;
+padding: 20px;
+}
+
+
+/* NAV BAR */
+.nav {
+  background: gray;
+  font-family: Limelight, cursive;
   display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
+li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+a {
+  color: rgb(0, 62, 78)
+}
+
+a:hover {
+  color: white;
+}
 
 /* .................................................PAGE SPLIT */
 
 /*.................................................F O O T E R  */
 footer {
+  position: absolute;
+  bottom: 0;
   text-align: center;
-  background: gray;
-  height: 30px;
-  margin-bottom: 0%;
-  padding-top: 10px;
-  margin: auto;
+  vertical-align: top;
+  height: 2.5rem;
+  /* margin-bottom: 5px;
+  margin-top: 10px;
+  padding-top: 5px; */
+  /* margin: auto; */
   color: rgb(0, 0, 0);
-  font-size: 16px;
-  width:500px;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
 }
