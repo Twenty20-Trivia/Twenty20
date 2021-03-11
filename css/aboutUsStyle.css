@@ -102,16 +102,17 @@ h3 {
   height: 55%;
   padding: 3px;
   margin: auto;
+  display: flex;
   vertical-align: center;
+
+  text-align: center;
 }
 
 img {
 width: 150px;
-display: block;
 margin: auto;
-min-height: 100px;
+min-height: 150px;
 max-height: 100%;
-align-items:center
 }
 
 p {
