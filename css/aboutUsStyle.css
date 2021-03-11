@@ -9,7 +9,7 @@ body {
   position: absolute;
   height:100%;
   width: 150%;
-  background: url(img/wallpapers.png) repeat center center fixed;
+  background: url("../img/wallpapers.png") repeat center center fixed;
   background-size: 35%;
   opacity: .07;
   z-index: -1
@@ -122,13 +122,15 @@ padding: 20px;
 
 
 /* NAV BAR */
-.nav {
+#nav {
   background: gray;
   font-family: Limelight, cursive;
   display: inline-block;
   text-align: center;
   width: 100%;
-  margin-bottom: 10%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -137,23 +139,20 @@ li {
   display: inline-block;
   font-weight: bold;
   font-size: 22px;
-  padding-left: 150px;
-  padding-right: 150px;
-}
+ padding-left: 150px;
+ padding-right: 150px;
+ }
 
-a {
+ a {
   color: rgb(0, 62, 78)
-}
-
-a:hover {
+ }
+ a:hover {
   color: white;
-}
+ }
 
-/* .................................................PAGE SPLIT */
-
-/*.................................................F O O T E R  */
-footer {
-  position: absolute;
+ /*......................................................F O O T E R */
+ footer {
+  position: fixed;
   bottom: 0;
   text-align: center;
   vertical-align: top;
